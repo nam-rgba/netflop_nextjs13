@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://kit.fontawesome.com/a3fe8c29cc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/css.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="style/images/logow.png" alt=""></a>
+                </div>
+                <div class="navbar-link">
+                    <ul>
+                        <li>
+                            <div class="search">
+                                <a href="search.html">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li><a href="index.html">Movie</a></li>
+                        <li><a href="explore.html">Explore</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="searchbar">
+            <form action="">
+                <div class="formgroup">
+                    <label for="input" class="visually-hidden"> input </label>
+                    <input type="text" name="input" id="input" placeholder="Enter name of movie">
+                </div>
+                <div class="filter">
+                    <div class="form_group">
+                        <label for="gerne">Thể loại: </label>
+                        <select name="gerne" id="gerne">
+                            <option value="all">-Tất cả-</option>
+                            <option value="amnhac">Âm nhạc</option>
+                            <option value="bian">Bí ẩn</option>
+                            <option value="chinhkich">Chính kịch</option>
+                            <option value="chientranh">Chiến tranh</option>
+                            <option value="giadinh">Gia đình</option>
+                            <option value="hai">Hài</option>
+                            <option value="hanhdong">Hành động</option>
+                            <option value="langman">Lãng mạn</option>
+                            <option value="hoathinh">Hoạt hình</option>
+                            <option value="phieuluu">Phiêu lưu</option>
+                            <option value="vientuong">Viễn tưởng</option>
+                            <option value="lichsu">Lịch sử</option>
+                            <option value="kinhdi">Kinh dị</option>
+                        </select>
+                    </div>
+
+                    <div class="form_group">
+                        <label for="country">Quốc gia: </label>
+                        <select name="country" id="country">
+                            <option value="all">-Tất cả-</option>
+                            <option value="USA">USA</option>
+                            <option value="china">Trung Quốc</option>
+                            <option value="korean">Hàn Quốc</option>
+                            <option value="japan">Nhật</option>
+                        </select>
+                    </div>
+
+                    <div class="form_group">
+                        <label for="year">Năm phát hành: </label>
+                        <select name="year" id="year">
+                            <option value="all">-Tất cả-</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="result">
+            <div class="suggestion">
+
+                <div class="film_list_row">
+                    <div class="film ">
+                        <a href="details.html">
+                            <div class="poster">
+                                <img src="style/images/771259.jpg" alt="">
+                            </div>
+                            <div class="card_detail">
+                                <h3>La La Land</h3>
+                                <p> <span>Directed by</span> James Bone</p>
+                                <div class="rate_and_gener">
+                                    <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                    <div class="gener">
+                                        <p>Romace</p>
+                                    </div>
+                                </div>
+                                <div class="intro">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                        voluptatibus</p>
+                                </div>
+
+
+                            </div>
+                        </a>
+
+
+                    </div>
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/42025.jpg" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/740296.png" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/1167501.jpg" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/2813640.jpg" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/2813640.jpg" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/2813640.jpg" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

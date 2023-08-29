@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+
+    <link rel="stylesheet" href="style/css.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://kit.fontawesome.com/a3fe8c29cc.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="style/images/logow.png" alt=""></a>
+                </div>
+                <div class="navbar-link">
+                    <ul>
+                        <li>
+                            <div class="search">
+                                <a href="search.html">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li><a href="index.html">Movie</a></li>
+                        <li><a href="explore.html">Explore</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="watching">
+            <video controls loop width="600">
+                <source
+                    src="https://res.cloudinary.com/dpsux2vzu/video/upload/v1681891665/tz8oxhzm5mspauxccjuo.mp4?fbclid=IwAR27WyaMOTp50AriZMBnTYBb2bg2y4fPS_azyOTIGmvtz2gqsrFSrUlGwVo"
+                    type="video/mp4">
+            </video>
+        </div>
+
+        <p class="hd">Nếu phim load chậm, âm thanh rè, vui lòng reload trang</p>
+
+        <div class="watch_detail">
+            <div class="name">
+                <h1>La La Land</h1>
+                <h3>La La Land (2017)</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, perspiciatis libero. Vitae nihil
+                    asperiores ad iusto ut nesciunt culpa, reprehenderit vel, sed, aut quia natus pariatur? Ducimus
+                    temporibus quidem autem.</p>
+
+            </div>
+            <div class="back">
+                <div class="btns">
+                    <button class="buttons tertiary"><i class="fa-solid fa-photo-film"></i> Same Genres</button>
+                    <button class="buttons quaternary" id="likefilm"><i class="fa-solid fa-heart-circle-check"></i> Like
+                        this
+                        film</button>
+                </div>
+                <a href="">Về trang giới thiệu phim </a>
+            </div>
+        </div>
+
+        <div class="suggestion">
+            <h4>Hôm nay xem gì?</h3>
+                <div class="film_list_row">
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/771259.jpg" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/42025.jpg" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/740296.png" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film ffouth">
+                        <div class="poster">
+                            <img src="style/images/1167501.jpg" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film ">
+                        <div class="poster">
+                            <img src="style/images/2813640.jpg" alt="">
+                        </div>
+                        <div class="card_detail">
+                            <h3>La La Land</h3>
+                            <p> <span>Directed by</span> James Bone</p>
+                            <div class="rate_and_gener">
+                                <p><span><i class="fa-brands fa-imdb"></i></span> 8.0/10</p>
+                                <div class="gener">
+                                    <p>Romace</p>
+                                </div>
+                            </div>
+                            <div class="intro">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dignissimos
+                                    voluptatibus</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script>
+        let like=false;
+        const btnLike = document.getElementById('likefilm');
+
+        btnLike.addEventListener('click', function handleLike() {
+            if(like) {
+                btnLike.textContent='Like this film';
+                like=false;
+            }
+            else {
+            btnLike.textContent = 'Liked';
+            like=true;
+        }
+        })
+    </script>
+</body>
+
+</html>
