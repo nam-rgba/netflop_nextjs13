@@ -1,0 +1,50 @@
+/* For header: logo and navbar */
+header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.2s;
+}
+
+header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.2rem 4rem;
+
+}
+
+header .navbar .logo,
+.navbar-link {
+    padding-top: 0.8rem;
+
+}
+
+header .navbar .logo img {
+    height: 3rem;
+}
+
+.navbar-link ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navbar-link ul li {
+    list-style-type: none;
+    margin: 0 1.8rem;
+
+}
+
+.navbar-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-link a:hover {
+    color: yellow;
+}
