@@ -4,17 +4,17 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header>
-      <div className="navbar">
-        <div className="logo">
+    <div className={style.header}>
+      <div className={style.navbar}>
+        <div className={style.logo}>
           <Link href="/">
             <Image src="/LOGO.png" width={144} height={144} alt="logo" />
           </Link>
         </div>
-        <div className="navbar-link">
+        <div className={style.navbar_link}>
           <ul>
             <li>
-              <div className="search">
+              <div className={style.search}>
                 <Link href="/search">
                   <i className="fa-solid fa-magnifying-glass" />
                 </Link>
@@ -32,6 +32,6 @@ export default function Header() {
           </ul>
         </div>
       </div>
-    </header>
+    </div>
   );
 }

@@ -2,13 +2,11 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import Header from "@/components/Header/header";
-import Head from "next/head";
 // import ogo from '../assets/images/LOGO.png'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Header></Header>
+    <div className={styles.container}>
       <div className="slides">
         <div className="background_image">
           <div className="content">
